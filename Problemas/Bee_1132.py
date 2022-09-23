@@ -2,17 +2,16 @@ x = int(input())
 y= int(input())
 
 if x > y:
-    a = y
-    b = x
+    n1 = y
+    n2 = x
 if x <= y:
-    a = x
-    b = y
+    n1 = x
+    n2 = y
    
 soma = 0
 
-
-while a <= b:
-    if a % 13 != 0:
-        soma = soma + a
-    a = a + 1
-print(soma)
+while n1 <= n2:
+    if n1 % 13 != 0:
+        soma = soma + n1
+    n1 = n1 + 1
+print('{}'.format(soma))
