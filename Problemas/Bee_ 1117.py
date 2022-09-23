@@ -1,17 +1,16 @@
-avaliacoes = 0
+media = 0
+total = 0
 
-nota = 0
+i = 0
 
-media_semestr = 0
-
-while avaliacoes != 2:
-    nota = float(input())
+while i != 2:
+    n = float(input())
     
-    if( nota >= 0 and nota <= 10):
-        media_semestr += nota / 2
-        avaliacoes = avaliacoes + 1
-    
+    if n >= 0 and n <= 10:
+        media = n / 2 + media
+        i = i + 1
     else:
-        print("nota invalida")
+        print('nota invalida')
     
-print("media = %.2f"%(media_semestr))
+
+print('media = {:.2f}'.format(media))
