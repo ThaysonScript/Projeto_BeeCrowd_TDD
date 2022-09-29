@@ -1,4 +1,4 @@
-def validar_nota(num):
+def validar_nota(n1, n2):
     media = total = i = 0
     while i != 2:
         n = float(input())
