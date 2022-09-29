@@ -1,4 +1,4 @@
-def multiplos_13(num):
+def multiplos_13(x, y):
     x = int(input())
     y = int(input())
     
