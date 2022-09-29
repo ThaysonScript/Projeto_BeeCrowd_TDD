@@ -20,7 +20,7 @@
 
 ## Problemas testados:
 ### Em Python:
-[Python_Tdd](https://github.com/ThaysonScript/Projeto_BeeCrowd/tree/main/Python_tdd)
+[Códigos Testados_Python_Tdd](https://github.com/ThaysonScript/Projeto_BeeCrowd/tree/main/Python_tdd)
 
 ![]()
 ![]()
